@@ -235,7 +235,7 @@ Each training run automatically generates:
 - Saved to `models/YYYYMMDDTHHMMSS/` (ISO 8601 timestamp)
 - Model saved to `models/verito.keras`
 
-**Example:** View a training report at `models/20251119T133742/REPORT.md`
+**Example:** View a training report at [models/20251122T115012/REPORT.md](models/20251122T115012/REPORT.md)
 
 ### Tuning
 

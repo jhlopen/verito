@@ -380,7 +380,7 @@ Every training run automatically generates a comprehensive report with visualiza
 ```
 models/
 ├── verito.keras                # Trained model (always at root)
-├── 20251119T133742/            # ISO 8601 timestamped run
+├── 20251122T115012/            # ISO 8601 timestamped run
 │   ├── REPORT.md               # Training report
 │   ├── history.json            # Raw training data
 │   ├── loss_curves.png         # Loss with best epoch
@@ -406,7 +406,7 @@ The automatically generated report includes:
 
 **View a training report:**
 
-Navigate to any timestamped directory like `models/20251119T133742/REPORT.md`
+Navigate to any timestamped directory like [models/20251122T115012/REPORT.md](models/20251122T115012/REPORT.md)
 
 **Load history for analysis:**
 
@@ -415,7 +415,7 @@ import json
 from pathlib import Path
 
 # Load a specific run
-with open("models/20251119T133742/history.json") as f:
+with open("models/20251122T115012/history.json") as f:
     history = json.load(f)
 
 # Access metrics
